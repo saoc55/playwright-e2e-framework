@@ -1,0 +1,25 @@
+{
+  "name": "playwright-e2e-framework",
+  "version": "1.0.0",
+  "description": "E2E test automation framework using Playwright (JavaScript) — POM, fixtures, CI/CD, Allure reporting",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saoc55/playwright-e2e-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saoc55/playwright-e2e-framework/issues"
+  },
+  "homepage": "https://github.com/saoc55/playwright-e2e-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
+    "allure-commandline": "^2.42.1",
+    "allure-playwright": "^3.10.0"
+  }
+}
