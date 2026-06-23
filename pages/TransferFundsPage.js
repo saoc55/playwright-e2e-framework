@@ -35,6 +35,7 @@ class TransferFundsPage {
     await this.toAccount.selectOption({ index: toIndex });
     await this.amountInput.fill(amount);
     await this.transferButton.click();
+    await this.successTitle.waitFor({ state: 'visible' });
   }
 }
  
